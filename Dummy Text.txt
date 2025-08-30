@@ -1,0 +1,25 @@
+TEXT_INPUT_XPATHS = {
+    'Nama Anak': "(//div[@role='listitem'])[1]", 
+    'Tempat Tanggal Lahir': "(//div[@role='listitem'])[2]", 
+    'Agama': "(//div[@role='listitem'])[7]", 
+    'Nama Orangtua': "(//div[@role='listitem'])[8]", 
+    'Satker': "(//div[@role='listitem'])[9]", 
+    'NO Telepon': "(//div[@role='listitem'])[10]", 
+    'Alamat': "(//div[@role='listitem'])[11]", 
+    'Alergi': "(//div[@role='listitem'])[12]"
+    }
+
+RADIO_INPUT_XPATHS = {
+    'Jenis Kelamin': "(//div[@role='listitem'])[6]"
+    }
+    
+CHECKBOX_INPUT_XPATHS = {
+    'Usia Anak': "(//div[@role='listitem'])[3]", 
+    '03  s/d  15 Bulan': "(//div[@role='listitem'])[4]", 
+    '16 s/d 72 Bulan': "(//div[@role='listitem'])[5]", 
+    'tanggal booking': "(//div[@role='listitem'])[13]", 
+    '1 september': "(//div[@role='listitem'])[14]", 
+    '2 september': "(//div[@role='listitem'])[15]", 
+    '3 september': "(//div[@role='listitem'])[16]", 
+    '4 september': "(//div[@role='listitem'])[17]", 
+    '5 september': "(//div[@role='listitem'])[18]"}

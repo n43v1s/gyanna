@@ -7,7 +7,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import time
 from datetime import datetime, timedelta
 
-FORM_URL = "https://forms.gle/aq52XaqC9sduLyvy5"
+FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfAroUfYkZqG7MuHRSG2-ly81tfK4qbw0frwnjhZP-hmgJQqQ/viewform"
 IS_TIME_TARGETED = False
 TARGET_HOUR = 13
 TARGET_MINUTE = 0

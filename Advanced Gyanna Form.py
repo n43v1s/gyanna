@@ -6,7 +6,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import time
 from datetime import datetime, timedelta
 
-FORM_URL = "https://forms.gle/aq52XaqC9sduLyvy5"
+FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfAroUfYkZqG7MuHRSG2-ly81tfK4qbw0frwnjhZP-hmgJQqQ/viewform"
 IS_TIME_TARGETED = False
 TARGET_HOUR = 13
 TARGET_MINUTE = 0
@@ -134,10 +134,10 @@ def click_submit(driver, timeout=10):
     return False
 
 answers = {
-    "Nama Anak": "Nama Contoh",
-    "Tempat Tanggal Lahir": "Jakarta, 01-01-2023",
+    "Nama Anak": "Gyanna",
+    "Tempat Tanggal Lahir": "Jakarta, 06 November 2024",
     "Usia Anak": "16 s/d 72 Bulan",   # radio
-    "Jenis Kelamin": "Laki-laki",     # radio
+    "Jenis Kelamin": "Perempuan",     # radio
     "Agama": "Islam",
     "Nama Orangtua": "Bapak/Ibu Contoh",
     "Satker": "Biro X",
